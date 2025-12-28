@@ -150,3 +150,291 @@ body {
   background-color: blue;
   transform: scale(1.1);
 }
+/* about page */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.about {
+  padding: 60px 20px;
+  background: #f4f9f8;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+}
+
+.about h1 {
+  text-align: center;
+  font-size: 40px;
+  color: #2c5f5d;
+}
+
+.subtitle {
+  text-align: center;
+  color: #555;
+  margin-bottom: 40px;
+}
+
+.about-content {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.about-text {
+  flex: 1;
+}
+
+.about-text h2 {
+  color: #2c5f5d;
+  margin-bottom: 10px;
+}
+
+.about-text p {
+  color: #444;
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+
+.about-image {
+  flex: 1;
+}
+
+.about-image img {
+  width: 100%;
+  border-radius: 10px;
+}
+/* blog page */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.blog {
+  padding: 60px 20px;
+  background: #f9fdfc;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+}
+
+.blog h1 {
+  text-align: center;
+  font-size: 40px;
+  color: #2c5f5d;
+}
+
+.subtitle {
+  text-align: center;
+  margin-bottom: 40px;
+  color: #555;
+}
+
+.blog-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+.blog-card {
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+
+.blog-card:hover {
+  transform: translateY(-5px);
+}
+
+.blog-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.blog-content {
+  padding: 20px;
+}
+
+.blog-content h3 {
+  color: #2c5f5d;
+  margin-bottom: 10px;
+}
+
+.blog-content p {
+  color: #444;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.blog-content a {
+  text-decoration: none;
+  color: #fff;
+  background: #2c5f5d;
+  padding: 8px 15px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+/* price */
+
+.pricing {
+  padding: 60px 20px;
+  background: #f4f9f8;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+}
+
+.pricing h1 {
+  text-align: center;
+  font-size: 40px;
+  color: #2c5f5d;
+}
+
+.subtitle {
+  text-align: center;
+  margin-bottom: 40px;
+  color: #555;
+}
+
+.pricing-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+.price-card {
+  background: #ffffff;
+  padding: 30px;
+  text-align: center;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.price-card h2 {
+  color: #d1d4d4;
+  margin-bottom: 15px;
+}
+
+.price {
+  font-size: 32px;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.price span {
+  font-size: 14px;
+  color: #777;
+}
+
+.price-card ul {
+  list-style: none;
+  margin-bottom: 25px;
+}
+
+.price-card ul li {
+  margin: 10px 0;
+  color: #444;
+}
+
+/* contact */
+
+
+.contact-section {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.contact-section h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+  color: #2c5f5d;
+}
+
+.contact-section p {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+form {
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  flex: 1 1 400px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+form input, form textarea {
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  width: 100%;
+}
+
+form textarea {
+  resize: none;
+}
+
+.contact-info {
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  flex: 1 1 300px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  text-align: left;
+}
+
+.contact-info h2 {
+  margin-bottom: 20px;
+  color: #2c5f5d;
+}
+
+.contact-info p {
+  margin-bottom: 10px;
+}
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  background: #2c5f5d;
+  color: #fff;
+  padding: 10px 25px;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: background 0.3s, transform 0.2s;
+  cursor: pointer;
+  border: none;
+}
+
+.btn:hover {
+  background: #1e3e3c;
+  transform: scale(1.05);
+}
+
